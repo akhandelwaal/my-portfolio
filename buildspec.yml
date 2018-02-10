@@ -3,7 +3,8 @@ version: 0.1
 phases:
   build:
     commands:
-      - echo nothing to do yet
+      - npm install
+      - npm run webpack
 artifacts:
   files:
     - index.html
@@ -11,4 +12,4 @@ artifacts:
     - Ankit_CloudArchitect.docx
     - styles/main.css
     - images/*
-    
+    - dist/bundle.js
